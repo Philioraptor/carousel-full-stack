@@ -14,7 +14,7 @@ export default function App() {
 
     try {
       // Replace with your deployed Render Backend URL once live
-      const backendUrl = "https://your-render-backend.onrender.com/api/generate-carousel";
+      const backendUrl = "https://carousel-full-stack.onrender.com";
       
       const res = await fetch(backendUrl, {
         method: 'POST',
